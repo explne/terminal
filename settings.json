@@ -9,6 +9,10 @@
 	"$schema" : "https://aka.ms/terminal-profiles-schema",
 	// If enabled, formatted data is also copied to your clipboard
 	"copyFormatting" : false,
+        // disable multiline paste warning
+        "multiLinePasteWarning": false,
+        // disable warnings when past text is more than 5KiB
+         "largePasteWarning": false,
 	// You can add more global application settings here.
 	// To learn more about global settings, visit https://aka.ms/terminal-global-settings
 	// If enabled, selections are automatically copied to your clipboard.
