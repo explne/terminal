@@ -25,8 +25,14 @@
 	[ 
                 // invoke command palette
                  { "command": "commandPalette", "keys": "ctrl+shift+p" },
-                // open tab coloer picker 
-                 { "command": "openTabColorPicker", "keys": "ctrl+shift+c"},
+                // open new tab
+		{ "command": "newTab", "keys": "ctrl+t" },
+               // change tab color to bright magenta 
+                 { "command": { "action": "setTabColor", "color": "#DC143C" }, "keys": "alt+shift+m"},
+              // change tab color to cyan 
+                 { "command": { "action": "setTabColor", "color": "#00FFFF" }, "keys": "alt+shift+c"},
+               // change tab color to lime green 
+                 { "command": { "action": "setTabColor", "color": "#32CD32" }, "keys": "alt+shift+g"},
 
 
 		// Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
